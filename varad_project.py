@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import svm
 from sklearn import metrics
 
-file_train="C:\\Users\SENS\\Desktop\\EEG-SVM\\Competition_train.mat"
+file_train="C:\\Users\Varad\\Desktop\\EEG-SVM\\Competition_train.mat"
 train_dict={}
 train_raw=lm(file_train,train_dict)
 x_train=train_dict['X']
